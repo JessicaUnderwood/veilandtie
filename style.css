@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+
+div.header-content{
+  position: sticky;
+}
+
+nav {
+  position: sticky;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+div#fashion {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: .4s;
+}
+.header-overlay {
+	height: 100vh;
+	width: 100vw;
+	position:absolute;
+	top: 0;
+	left: 0;
+	background-color:  #225470;
+	opacity: .65;
+}
+
+.header-content logo{
+	position: absolute;
+}
+
+img {
+}
+
+h1 {
+  font-family: Moderne Sans, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: .5rem;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+
+}
+h2  {
+  position: fixed;
+  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+  font-size: 6vmin;
+  text-align: center;
+  margin: 15rem 3rem 0;
+  color: #fff;
+	z-index: 1;
+  font-weight: 100;
+}
